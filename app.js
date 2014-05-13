@@ -17,7 +17,6 @@ var fizzBuzz = function() {
 			text = i;
 		}
 		text = text + lineBreak
-		// $('.result').append().html( text + "<br/>");
 		$('.result').append(text);
 	}
 };
