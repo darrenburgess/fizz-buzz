@@ -16,7 +16,7 @@ var fizzBuzz = function() {
 		} else {
 			text = i;
 		}
-		text = text + lineBreak
+		text = text + lineBreak;
 		$('.result').append(text);
 	}
 };
